@@ -1,5 +1,6 @@
 *.env
 *.gif
+!example.gif
 *.png
 *.pgn
 !example.pgn

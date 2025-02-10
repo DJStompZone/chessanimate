@@ -54,9 +54,9 @@ python -m chessanimate game.pgn
 - **cairosvg** - Converts SVG to PNG
 - **Cairo** - Required for SVG rendering
 
-[comment]: <> (## Output Example)
-[comment]: <> ()
-[comment]: <> (![Example GIF](chess_animation.gif))
+## Output Example
+
+![Example GIF](example.gif)
 
 ## License
 
