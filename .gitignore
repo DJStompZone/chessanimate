@@ -2,6 +2,7 @@
 *.gif
 *.png
 *.pgn
+!example.pgn
 *.txt
 *.py[cio]
 __pycache__/
