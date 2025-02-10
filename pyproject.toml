@@ -22,7 +22,7 @@ dependencies = [
 name = "chesaanimate"
 authors = ["DJ Stomp <85457381+DJStompZone@users.noreply.github.com>"]
 description = "Creates GIF animations from .PGN chess games"
-version = "0.0.1"
+version = "1.0.0"
 
 [project.urls]
 repository = "https://github.com/djstompzone/chessanimate"
