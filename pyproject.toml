@@ -1,0 +1,35 @@
+[project]
+name = "chessanimate"
+dynamic = [ "version" ]
+description = "Creates GIF animations from .PGN chess games"
+authors = [
+    { name = "DJ Stomp", email = "85457381+DJStompZone@users.noreply.github.com" },
+]
+maintainers = [
+    { name = "DJ Stomp", email = "85457381+DJStompZone@users.noreply.github.com" },
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "python-chess (>=1.999,<2.0)",
+    "imageio (>=2.37.0,<3.0.0)",
+    "pillow (>=11.1.0,<12.0.0)",
+    "cairosvg (>=2.7.1,<3.0.0)",
+]
+
+[tool.poetry]
+name = "chesaanimate"
+authors = ["DJ Stomp <85457381+DJStompZone@users.noreply.github.com>"]
+description = "Creates GIF animations from .PGN chess games"
+version = "0.0.1"
+
+[project.urls]
+repository = "https://github.com/djstompzone/chessanimate"
+documentation = "https://github.com/DJStompZone/chessanimate/blob/main/README.md"
+"Discord" = "https://discord.stomp.zone"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+*.env
+*.gif
+*.png
+*.pgn
+*.txt
+*.py[cio]
+__pycache__/
+poetry_cache/
+build/
+dist/
+output/
+temp/
