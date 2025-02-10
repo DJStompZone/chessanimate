@@ -25,4 +25,3 @@ def generate_chess_animation(pgn_file, output_gif="chess_animation.gif", duratio
         images.append(img)
 
     images[0].save(output_gif, save_all=True, append_images=images[1:], duration=duration, loop=0)
-    print(f"GIF saved as {output_gif}")
