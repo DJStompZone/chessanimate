@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-name = "chesaanimate"
+name = "chessanimate"
 authors = ["DJ Stomp <85457381+DJStompZone@users.noreply.github.com>"]
 description = "Creates GIF animations from .PGN chess games"
 version = "1.0.0"
